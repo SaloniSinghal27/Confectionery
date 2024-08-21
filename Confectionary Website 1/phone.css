@@ -1,0 +1,103 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home section */
+#home {
+    height: 370px;
+    padding: 3px 20px;
+}
+
+#home::before {
+    height: 600px;
+    background: url(images/back.png) no-repeat center center/cover;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* Products section */
+#products{
+    background: url(images/backGround.png) no-repeat center center/cover;
+}
+
+#products .navbar a {
+    font-size: 1rem;
+}
+
+#products .product-row .swiper-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-items: center;
+}
+
+#products .product-row .swiper-wrapper .box {
+    width: auto;
+}
+
+/* Services section  */
+#services {
+    height: 1900px;
+    background: url(images/backGround.png) no-repeat center center/cover;
+}
+
+#services .services-container {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#services .services-container .box {
+    padding: 7px;
+    height: 20rem;
+    width: auto;
+    margin: 2px 15px;
+    margin-bottom: 20px;
+}
+
+/* Reviews section */
+#review{
+    background: url(images/backGround.png) no-repeat center center/cover;
+}
+
+#review .box {
+    flex-direction: column;
+}
+
+#review .box .card {
+    width: auto;
+    padding: 6px;
+    height: auto;
+}
+
+#contact{
+    background: url(images/backGround.png) no-repeat center center/cover;
+}
+
+#contact .note p {
+    width: auto;
+    margin: 25px auto;
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+
+/* Utility classes */
+.h-primary {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
